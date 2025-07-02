@@ -108,21 +108,78 @@
     "settingsUpdated": "Paramètres mis à jour",
     "accountActivity": "Activité du compte"
   },
+
   "features": {
-    "title": "Fonctionnalités de GreenNext",
-    "description": "Découvrez comment GreenNext transforme la gestion des campus avec des solutions IoT innovantes.",
-    "accessControlTitle": "Contrôle d'accès intelligent",
+    "title": "Fonctionnalités de Smart&Secure Campus",
+    "description": "Digitalisez votre campus avec des outils fiables, connectés et adaptés à tous les environnements éducatifs.",
+
     "accessControl": "Contrôle d'accès intelligent",
-    "accessControlDesc": "Utilisez des systèmes RFID et des servomoteurs pour sécuriser les points d'entrée avec des journaux horodatés.",
+    "accessControlDesc": "Utilisez des systèmes RFID et des servomoteurs pour sécuriser les entrées avec des journaux horodatés.",
+
     "attendance": "Présence automatisée",
-    "attendanceDesc": "Enregistrez la présence des étudiants passivement via Wi-Fi ou activement avec des cartes RFID.",
-    "energy": "Optimisation de l'énergie",
-    "energyDesc": "Utilisez des capteurs PIR et LDR pour réduire automatiquement le gaspillage d'énergie dans les salles de classe.",
-    "weather": "Surveillance météo",
-    "weatherDesc": "Suivez la température, l'humidité et les précipitations grâce à des capteurs DHT et de pluie.",
-    "dashboard": "Intégration du tableau de bord",
-    "dashboardDesc": "Gérez et surveillez tous les appareils du campus depuis une interface centrale.",
-    "modes": "Modes hors ligne & réseau",
-    "modesDesc": "Fonctionnez avec enregistrement sur carte SD ou synchronisez avec le cloud via des modules ESP8266."
+    "attendanceDesc": "Enregistrez la présence des étudiants via Wi-Fi ou cartes RFID.",
+
+    "energy": "Optimisation énergétique",
+    "energyDesc": "Réduisez les gaspillages grâce à des capteurs PIR et LDR dans les salles de classe.",
+
+    "weather": "Surveillance climatique",
+    "weatherDesc": "Mesurez la température, l'humidité et les précipitations avec des capteurs DHT et pluie.",
+
+    "dashboard": "Tableau de bord centralisé",
+    "dashboardDesc": "Gérez tous les dispositifs depuis une interface unique et intuitive.",
+
+    "modes": "Modes hors-ligne & réseau",
+    "modesDesc": "Fonctionnement autonome avec carte SD ou synchronisation cloud via ESP8266."
+  },
+
+  "highlights": {
+    "iotModulesTitle": "Modules IoT prêts à l'emploi",
+    "iotModulesDescription": "Exploitez des systèmes Arduino modulaires — des portes intelligentes et lumières économes en énergie aux pointages RFID et rapports météo.",
+    "educationReadyTitle": "Conçu pour l'éducation",
+    "educationReadyDescription": "GRENEXT est conçu pour les écoles, universités et centres d'apprentissage — bilingue, évolutif et économe en énergie.",
+    "testimonial": "Avec GRENEXT, notre institut a automatisé les routines quotidiennes, réduit les coûts d'électricité et obtenu une visibilité totale sur le flux des étudiants — tout depuis un seul tableau de bord.",
+    "platformTitle": "Contrôle de campus tout-en-un",
+    "platformDescription": "Centralisez les journaux d'accès, rapports énergétiques, données climatiques et métriques de présence sur une seule plateforme intuitive.",
+    "message": "Essayez nos solutions Smart & ",
+    "messageAccent": "Secure Campus"
+  },
+
+  "solutions": {
+    "accessControl": {
+      "label": "Contrôle d'accès",
+      "description": "Gérez et sécurisez l'accès aux bâtiments avec une authentification intelligente"
+    },
+    "attendanceManagement": {
+      "label": "Gestion de la présence",
+      "description": "Suivez la présence des étudiants et du personnel en temps réel"
+    },
+    "smartLighting": {
+      "label": "Éclairage intelligent",
+      "description": "Systèmes d'éclairage automatisés pour une utilisation efficace de l'énergie"
+    },
+    "smartDoors": {
+      "label": "Portes intelligentes",
+      "description": "Contrôlez et surveillez à distance l'état et l'accès des portes"
+    },
+    "energyManagement": {
+      "label": "Gestion de l'énergie",
+      "description": "Optimisez la consommation d'énergie sur votre campus"
+    },
+    "climateMonitoring": {
+      "label": "Surveillance du climat",
+      "description": "Surveillez et maintenez des conditions d'air et de température optimales en intérieur"
+    },
+    "attendanceTracking": {
+      "label": "Suivi de la présence",
+      "description": "Suivi transparent de la présence des étudiants via RFID ou biométrie"
+    },
+    "dataAnalytics": {
+      "label": "Analyse de données",
+      "description": "Obtenez des informations sur les habitudes d'utilisation et la performance du système"
+    },
+    "customIntegrations": {
+      "label": "Intégrations personnalisées",
+      "description": "Connectez-vous à vos systèmes existants ou à des plateformes tierces"
+    }
   }
 }

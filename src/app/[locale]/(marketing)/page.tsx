@@ -7,6 +7,7 @@ import { useEffect, useRef } from "react";
 import { HeroSection } from "./HeroSection";
 import HighlightsSection from "./HighlightsSection";
 import FeaturesSection from "./FeaturesSection";
+import TeamSection from "./TeamSection";
 
 export const meta: Metadata = {
   title: "GRENEXT | Smart & Secure Campus Platform",
@@ -39,12 +40,11 @@ const Home: NextPage = () => {
   }, []);
 
   return (
-    <Box as="main"  minH="100vh">
+    <Box as="main" minH="100vh">
       <Box
         ref={(el) => {
           if (el) sectionsRef.current[0] = el;
         }}
-      
         scrollSnapAlign="start"
       >
         <HeroSection />
@@ -72,6 +72,20 @@ const Home: NextPage = () => {
         scrollSnapAlign="start"
       >
         <FeaturesSection />
+      </Box>
+
+      <Box
+        ref={(el) => {
+          if (el) sectionsRef.current[3] = el;
+        }}
+        minH="100vh"
+        alignItems="center"
+        justifyContent="center"
+        scrollSnapAlign="start"
+      >
+        {/* Additional sections can be added here */}
+
+        <TeamSection />
       </Box>
     </Box>
   );
