@@ -1,0 +1,128 @@
+{
+  "home": {
+    "title": "Bienvenue sur GreenNext",
+    "description": "GreenNext est une plateforme intelligente et modulaire dédiée à la gestion sécurisée des campus. Automatisez la présence, contrôlez les accès, surveillez la météo et optimisez l'énergie grâce à l'IoT.",
+    "cta": "Commencer"
+  },
+  "about": {
+    "title": "À propos de GreenNext",
+    "content": "Notre mission est de numériser les campus pour les rendre plus sûrs, durables et intelligents."
+  },
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "home": "Accueil",
+    "access": "Accès",
+    "attendance": "Présence",
+    "weather": "Météo",
+    "energy": "Énergie",
+    "settings": "Paramètres",
+    "faq": "FAQ",
+    "support": "Support"
+  },
+  "header": {
+    "profile": "Mon profil",
+    "settings": "Paramètres",
+    "logout": "Déconnexion",
+    "search": "Rechercher ou taper une commande..."
+  },
+  "profile": {
+    "title": "Mon profil",
+    "description": "Gérez vos informations personnelles et préférences.",
+    "editProfile": "Modifier le profil",
+    "updateSuccess": "Profil mis à jour avec succès",
+    "changePassword": "Changer le mot de passe"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "description": "Vous avez une question ? Contactez notre équipe à tout moment."
+  },
+  "footer": {
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation",
+    "followUs": "Suivez-nous"
+  },
+  "error": {
+    "notFound": "Page non trouvée",
+    "serverError": "Erreur interne du serveur",
+    "unauthorized": "Accès non autorisé"
+  },
+  "inputFields": {
+    "name": {
+      "firstName": "Prénom",
+      "lastName": "Nom de famille",
+      "username": "Nom d'utilisateur",
+      "identifier": "Identifiant",
+      "phone": "Numéro de téléphone",
+      "address": "Adresse",
+      "email": "Adresse e-mail",
+      "password": "Mot de passe",
+      "confirmPassword": "Confirmer le mot de passe",
+      "search": "Rechercher...",
+      "submit": "Soumettre",
+      "cancel": "Annuler"
+    },
+    "placeholder": {
+      "email": "Entrez votre e-mail",
+      "password": "Entrez votre mot de passe",
+      "username": "Entrez votre nom d'utilisateur",
+      "firstName": "Entrez votre prénom",
+      "lastName": "Entrez votre nom de famille",
+      "identifier": "Entrez votre identifiant",
+      "phone": "Entrez votre numéro de téléphone",
+      "address": "Entrez votre adresse",
+      "confirmPassword": "Confirmez votre mot de passe"
+    }
+  },
+  "auth": {
+    "login": "Connexion",
+    "register": "Inscription",
+    "logout": "Déconnexion",
+    "forgotPassword": "Mot de passe oublié ?",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "rememberMe": "Se souvenir de moi",
+    "connected": "Connecté",
+    "signInWithIds": "Connexion avec vos identifiants",
+    "footerLoginText": "Vous avez déjà un compte ?",
+    "footerLoginLink": "Connectez-vous",
+    "footerRegisterText": "Vous n'avez pas de compte ?",
+    "footerRegisterLink": "Inscrivez-vous"
+  },
+  "dashboard": {
+    "welcome": "Bienvenue sur votre tableau de bord GreenNext",
+    "settings": "Paramètres",
+    "profile": "Profil",
+    "notifications": "Notifications",
+    "messages": "Messages"
+  },
+  "settings": {
+    "account": "Compte",
+    "privacy": "Confidentialité",
+    "security": "Sécurité",
+    "language": "Langue"
+  },
+  "notifications": {
+    "newMessage": "Nouveau message",
+    "settingsUpdated": "Paramètres mis à jour",
+    "accountActivity": "Activité du compte"
+  },
+  "features": {
+    "title": "Fonctionnalités de GreenNext",
+    "description": "Découvrez comment GreenNext transforme la gestion des campus avec des solutions IoT innovantes.",
+    "accessControlTitle": "Contrôle d'accès intelligent",
+    "accessControl": "Contrôle d'accès intelligent",
+    "accessControlDesc": "Utilisez des systèmes RFID et des servomoteurs pour sécuriser les points d'entrée avec des journaux horodatés.",
+    "attendance": "Présence automatisée",
+    "attendanceDesc": "Enregistrez la présence des étudiants passivement via Wi-Fi ou activement avec des cartes RFID.",
+    "energy": "Optimisation de l'énergie",
+    "energyDesc": "Utilisez des capteurs PIR et LDR pour réduire automatiquement le gaspillage d'énergie dans les salles de classe.",
+    "weather": "Surveillance météo",
+    "weatherDesc": "Suivez la température, l'humidité et les précipitations grâce à des capteurs DHT et de pluie.",
+    "dashboard": "Intégration du tableau de bord",
+    "dashboardDesc": "Gérez et surveillez tous les appareils du campus depuis une interface centrale.",
+    "modes": "Modes hors ligne & réseau",
+    "modesDesc": "Fonctionnez avec enregistrement sur carte SD ou synchronisez avec le cloud via des modules ESP8266."
+  }
+}

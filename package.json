@@ -12,7 +12,9 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "next": "15.3.4",
-     "@chakra-ui/react": "^2.10.1",
+    "negotiator": "^1.0.0",
+    "@formatjs/intl-localematcher": "^0.6.1",
+    "@chakra-ui/react": "^2.10.1",
     "@chakra-ui/theme-tools": "^2.2.5",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
@@ -31,6 +33,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/negotiator": "^0.6.4",
     "eslint": "^9",
     "eslint-config-next": "15.3.4",
     "@eslint/eslintrc": "^3"

@@ -1,0 +1,127 @@
+{
+  "home": {
+    "title": "Welcome to GreenNext",
+    "description": "GreenNext is a smart, modular platform built to secure and optimize your campus. Automate attendance, control access, monitor weather, and save energy through IoT-driven features.",
+    "cta": "Get Started"
+  },
+  "about": {
+    "title": "About GreenNext",
+    "content": "Our mission is to digitize campuses to make them safer, more sustainable, and smarter."
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "home": "Home",
+    "access": "Access",
+    "attendance": "Attendance",
+    "weather": "Weather",
+    "energy": "Energy",
+    "settings": "Settings",
+    "faq": "FAQ",
+    "support": "Support"
+  },
+  "header": {
+    "profile": "My Profile",
+    "settings": "Settings",
+    "logout": "Logout",
+    "search": "Search or type a command..."
+  },
+  "profile": {
+    "title": "My Profile",
+    "description": "Manage your personal information and preferences.",
+    "editProfile": "Edit Profile",
+    "updateSuccess": "Profile updated successfully",
+    "changePassword": "Change Password"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Feel free to reach out if you have any questions or feedback."
+  },
+  "footer": {
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "followUs": "Follow Us"
+  },
+  "error": {
+    "notFound": "Page not found",
+    "serverError": "Internal server error",
+    "unauthorized": "Unauthorized access"
+  },
+  "inputFields": {
+    "name": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "username": "Username",
+      "identifier": "Identifier",
+      "phone": "Phone Number",
+      "address": "Address",
+      "email": "Email Address",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "search": "Search...",
+      "submit": "Submit",
+      "cancel": "Cancel"
+    },
+    "placeholder": {
+      "email": "Enter your email",
+      "password": "Enter your password",
+      "username": "Enter your username",
+      "firstName": "Enter your first name",
+      "lastName": "Enter your last name",
+      "identifier": "Enter your identifier",
+      "phone": "Enter your phone number",
+      "address": "Enter your address",
+      "confirmPassword": "Confirm your password"
+    }
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "forgotPassword": "Forgot password?",
+    "resetPassword": "Reset Password",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "rememberMe": "Remember Me",
+    "connected": "Connected",
+    "signInWithIds": "Sign in with your credentials",
+    "footerLoginText": "Already have an account?",
+    "footerLoginLink": "Sign in",
+    "footerRegisterText": "Don't have an account?",
+    "footerRegisterLink": "Sign up"
+  },
+  "dashboard": {
+    "welcome": "Welcome to your GreenNext dashboard",
+    "settings": "Settings",
+    "profile": "Profile",
+    "notifications": "Notifications",
+    "messages": "Messages"
+  },
+  "settings": {
+    "account": "Account Settings",
+    "privacy": "Privacy Settings",
+    "security": "Security Settings",
+    "language": "Language Preferences"
+  },
+  "notifications": {
+    "newMessage": "New Message",
+    "settingsUpdated": "Settings updated",
+    "accountActivity": "Account Activity"
+  },
+  "features": {
+    "title": "Smart Campus Capabilities",
+    "description": "Everything you need to digitize and secure your campus, from classrooms to climate sensors.",
+    "accessControl": "Smart Access Control",
+    "accessControlDesc": "Use RFID systems and servomotors to secure entry points with timestamped logs.",
+    "attendance": "Automated Attendance",
+    "attendanceDesc": "Record student attendance passively via Wi-Fi or actively with RFID cards.",
+    "energy": "Energy Optimization",
+    "energyDesc": "Use PIR and LDR sensors to automatically reduce energy waste in classrooms.",
+    "weather": "Weather Monitoring",
+    "weatherDesc": "Track temperature, humidity, and rainfall with DHT and rain sensors.",
+    "dashboard": "Dashboard Integration",
+    "dashboardDesc": "Manage and monitor all campus devices from a central interface.",
+    "modes": "Offline & Network Modes",
+    "modesDesc": "Operate with SD card logging or sync with the cloud via ESP8266 modules."
+  }
+}
