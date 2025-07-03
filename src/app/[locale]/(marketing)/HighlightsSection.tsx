@@ -1,12 +1,13 @@
 "use client";
 
 import { Box, Flex, Tag, Text, Tooltip, VStack, Wrap } from "@chakra-ui/react";
+
+import { useDictionary } from "@/hooks/useDictionary";
 import {
   Highlights,
   HighlightsItem,
   HighlightsTestimonialItem,
 } from "@/components/highlights";
-import { useDictionary } from "@/hooks/useDictionary";
 
 const HighlightsSection = () => {
   const { dict } = useDictionary();

@@ -36,7 +36,7 @@ const Features = {
         colorScheme: 'white',
       },
     },
-    light: ({ colorMode }: any) => ({
+    light: ({ colorMode }: { colorMode: string }) => ({
       container: {
         bg: colorMode === 'dark' ? 'gray.700' : 'gray.100',
       },
@@ -49,7 +49,7 @@ const Features = {
 
 export const Feature = {
   parts: ['container', 'title', 'description', 'icon'],
-  baseStyle: (props: any) => ({
+  baseStyle: (props: import('@chakra-ui/theme-tools').StyleFunctionProps) => ({
     container: {
       alignItems: 'flex-start',
       flexDirection: 'column',
@@ -111,7 +111,7 @@ export const Feature = {
         mt: 4,
       },
     },
-    light: ({ colorMode }: any) => ({
+    light: ({ colorMode }: { colorMode: string }) => ({
       wrapper: {
         bg: colorMode === 'dark' ? 'gray.700' : 'gray.100',
       },

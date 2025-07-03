@@ -8,13 +8,13 @@ import {
   AnnouncementBanner,
   AnnouncementBannerProps,
 } from '../announcement-banner'
-import { Header, HeaderProps } from './header'
+import { Header } from './header'
 import Footer from './footer'
 
 interface LayoutProps {
   children: ReactNode
   announcementProps?: AnnouncementBannerProps
-  headerProps?: HeaderProps
+  headerProps?: React.ComponentProps<typeof Header>
   footerProps?: React.ComponentProps<typeof Footer>
 }
 

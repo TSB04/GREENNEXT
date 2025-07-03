@@ -9,7 +9,7 @@ const Section = {
     solid: {
       bg: 'primary.400',
     },
-    alternate: ({ colorMode }: any) => ({
+    alternate: ({ colorMode }: { colorMode: 'light' | 'dark' }) => ({
       bg: colorMode === 'dark' ? 'gray.800' : 'gray.50',
     }),
   },

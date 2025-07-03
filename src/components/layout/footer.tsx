@@ -97,7 +97,7 @@ const Footer = () => {
           top="0"
           left="0"
           zIndex={-1}
-          maxW="570px"
+          maxW="400px"
           w="full"
           display={{ base: 'none', lg: 'block' }}
         >

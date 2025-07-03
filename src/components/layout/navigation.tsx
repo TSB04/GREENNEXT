@@ -1,7 +1,7 @@
 import { HStack } from '@chakra-ui/react'
 import { useDisclosure, useUpdateEffect } from '@chakra-ui/react'
 import { useScrollSpy } from '@/hooks/use-scrollspy'
-import { usePathname, useRouter } from 'next/navigation'
+import { usePathname } from 'next/navigation'
 
 import * as React from 'react'
 
@@ -14,7 +14,6 @@ import ThemeToggle from './theme-toggle'
 
 const Navigation: React.FC = () => {
   const mobileNav = useDisclosure()
-  const router = useRouter()
   const path = usePathname()
   const activeId = useScrollSpy(
     siteConfig.header.links
@@ -25,7 +24,7 @@ const Navigation: React.FC = () => {
     },
   )
 
-  const mobileNavBtnRef = React.useRef<HTMLButtonElement>()
+  const mobileNavBtnRef = React.useRef<HTMLButtonElement>(null)
 
   useUpdateEffect(() => {
     mobileNavBtnRef.current?.focus()

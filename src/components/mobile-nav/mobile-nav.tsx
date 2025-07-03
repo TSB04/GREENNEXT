@@ -66,7 +66,6 @@ interface MobileNavContentProps {
 export function MobileNavContent(props: MobileNavContentProps) {
   const { isOpen, onClose = () => {} } = props
   const closeBtnRef = React.useRef<HTMLButtonElement>(null)
-  const pathname = usePathname()
   const bgColor = useColorModeValue('whiteAlpha.900', 'blackAlpha.900')
 
   useRouteChanged(onClose)
@@ -121,7 +120,8 @@ export function MobileNavContent(props: MobileNavContentProps) {
                       <NavLink
                         href={href || `/@/${id}`}
                         key={i}
-                        {...(props as any)}
+                        label={label}
+                        {...(props as Partial<LinkProps>)}
                       >
                         {label}
                       </NavLink>
@@ -138,7 +138,7 @@ export function MobileNavContent(props: MobileNavContentProps) {
 }
 
 export const MobileNavButton = React.forwardRef(
-  (props: IconButtonProps, ref: React.Ref<any>) => {
+  (props: IconButtonProps, ref: React.Ref<HTMLButtonElement>) => {
     return (
       <IconButton
         ref={ref}

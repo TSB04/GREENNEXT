@@ -23,7 +23,7 @@ const CTA = {
         colorScheme: 'white',
       },
     },
-    light: ({ colorMode }: any) => ({
+    light: ({ colorMode }: { colorMode: string }) => ({
       wrapper: {
         bg: colorMode === 'dark' ? 'gray.700' : 'gray.100',
       },

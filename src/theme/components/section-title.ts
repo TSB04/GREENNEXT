@@ -16,7 +16,7 @@ const SectionTitle = {
     },
   },
   variants: {
-    default: (props: any) => ({
+    default: (props: Record<string, unknown>) => ({
       title: {},
       description: {
         color: mode('gray.500', 'gray.400')(props),
@@ -30,7 +30,7 @@ const SectionTitle = {
         color: 'gray.700',
       },
     },
-    light: (props: any) => ({
+    light: () => ({
       title: {
         color: 'white',
       },

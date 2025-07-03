@@ -8,7 +8,8 @@ import { HeroSection } from "./HeroSection";
 import HighlightsSection from "./HighlightsSection";
 import FeaturesSection from "./FeaturesSection";
 import TeamSection from "./TeamSection";
-
+import RefSection from "./RefSection";
+import IotSection from "./IotSection";
 
 const Home: NextPage = () => {
   const sectionsRef = useRef<HTMLDivElement[]>([]);
@@ -78,9 +79,30 @@ const Home: NextPage = () => {
         justifyContent="center"
         scrollSnapAlign="start"
       >
-        {/* Additional sections can be added here */}
-
         <TeamSection />
+      </Box>
+
+      <Box
+        ref={(el) => {
+          if (el) sectionsRef.current[4] = el;
+        }}
+        minH="50vh"
+        alignItems="center"
+        justifyContent="center"
+        scrollSnapAlign="start"
+      >
+        <IotSection />
+      </Box>
+      <Box
+        ref={(el) => {
+          if (el) sectionsRef.current[5] = el;
+        }}
+        minH="50vh"
+        alignItems="center"
+        justifyContent="center"
+        scrollSnapAlign="start"
+      >
+        <RefSection />
       </Box>
     </Box>
   );
