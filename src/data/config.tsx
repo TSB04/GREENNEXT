@@ -1,93 +1,108 @@
-import { Button } from '@chakra-ui/react'
 import { Link } from '@saas-ui/react'
 import { NextSeoProps } from 'next-seo'
-import { FaGithub, FaTwitter } from 'react-icons/fa'
-import { FiCheck } from 'react-icons/fi'
+import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa'
+import { FiCpu, FiZap, FiLock, FiSmartphone } from 'react-icons/fi'
 import { Logo } from './logo'
 
 const siteConfig = {
   logo: Logo,
   seo: {
-    title: 'GreenNext',
-    description: 'A Next.js template for SaaS applications',
+    title: 'GreenNext – Smart & Secure Campus',
+    description:
+      'GreenNext is a smart, secure, and sustainable campus platform enabling smart access, energy optimization, and real-time monitoring through IoT.',
   } as NextSeoProps,
-  termsUrl: '@/',
-  privacyUrl: '@/',
+
+  termsUrl: '/legal/terms',
+  privacyUrl: '/legal/privacy',
+
   header: {
     links: [
       {
-        id: 'features',
-        label: 'Features',
+        id: 'solutions',
+        label: 'Solutions',
+      },
+      {
+        id: 'dashboard',
+        label: 'Dashboard',
+      },
+      {
+        id: 'institutes',
+        label: 'Institutes',
       },
       {
         id: 'pricing',
         label: 'Pricing',
       },
       {
-        id: 'faq',
-        label: 'FAQ',
-      },
-      {
         label: 'Login',
         href: '/login',
       },
       {
-        label: 'Sign Up',
+        label: 'Get Started',
         href: '/signup',
         variant: 'primary',
       },
     ],
   },
+
   footer: {
     copyright: (
       <>
-        Built by{' '}
-        <Link href="https://twitter.com/Pagebakers">Eelco Wiersma</Link>
+        © {new Date().getFullYear()} GreenNext. Built with ❤️ by the{' '}
+        <Link href="https://greennext.dev" isExternal>
+          GreenNext Team
+        </Link>
       </>
     ),
     links: [
       {
-        href: 'mailto:hello@saas-ui.dev',
+        href: 'mailto:contact@greennext.dev',
         label: 'Contact',
       },
       {
-        href: 'https://twitter.com/saas_js',
+        href: 'https://twitter.com/greennext_io',
         label: <FaTwitter size="14" />,
       },
       {
-        href: 'https://github.com/saas-js/saas-ui',
+        href: 'https://github.com/greennext',
         label: <FaGithub size="14" />,
       },
+      {
+        href: 'https://linkedin.com/company/greennext',
+        label: <FaLinkedin size="14" />,
+      },
     ],
   },
+
   signup: {
-    title: 'Start building with Saas UI',
+    title: 'Build your Smart Campus with GreenNext',
     features: [
       {
-        icon: FiCheck,
-        title: 'Accessible',
-        description: 'All components strictly follow WAI-ARIA standards.',
+        icon: FiLock,
+        title: 'Smart Access Control',
+        description: 'Secure doors and zones with RFID/NFC badges and mobile verification.',
       },
       {
-        icon: FiCheck,
-        title: 'Themable',
+        icon: FiZap,
+        title: 'Energy Optimization',
         description:
-          'Fully customize all components to your brand with theme support and style props.',
+          'Automated lighting and HVAC control to reduce waste and improve sustainability.',
       },
       {
-        icon: FiCheck,
-        title: 'Composable',
+        icon: FiCpu,
+        title: 'Modular IoT Architecture',
         description:
-          'Compose components to fit your needs and mix them together to create new ones.',
+          'Plug-and-play sensors, emergency alert systems, weather tracking, and more.',
       },
       {
-        icon: FiCheck,
-        title: 'Productive',
+        icon: FiSmartphone,
+        title: 'Mobile & Wi-Fi Connectivity',
         description:
-          'Designed to reduce boilerplate and fully typed, build your product at speed.',
+          'Connect to real-time dashboards, student ID apps, and alerts via mobile devices.',
       },
     ],
   },
+  
 }
 
 export default siteConfig

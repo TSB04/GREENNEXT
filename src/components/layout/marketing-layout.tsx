@@ -8,14 +8,14 @@ import {
   AnnouncementBanner,
   AnnouncementBannerProps,
 } from '../announcement-banner'
-import { Footer, FooterProps } from './footer'
 import { Header, HeaderProps } from './header'
+import Footer from './footer'
 
 interface LayoutProps {
   children: ReactNode
   announcementProps?: AnnouncementBannerProps
   headerProps?: HeaderProps
-  footerProps?: FooterProps
+  footerProps?: React.ComponentProps<typeof Footer>
 }
 
 export const MarketingLayout: React.FC<LayoutProps> = (props) => {
@@ -29,7 +29,7 @@ export const MarketingLayout: React.FC<LayoutProps> = (props) => {
         <SkipNavContent />
         {children}
       </Box>
-      <Footer {...footerProps} />
+      <Footer {...(footerProps || {})} />
     </Box>
   )
 }

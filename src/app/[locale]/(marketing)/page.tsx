@@ -1,7 +1,7 @@
 "use client";
 
 import { Box } from "@chakra-ui/react";
-import type { Metadata, NextPage } from "next";
+import type { NextPage } from "next";
 import * as React from "react";
 import { useEffect, useRef } from "react";
 import { HeroSection } from "./HeroSection";
@@ -9,11 +9,6 @@ import HighlightsSection from "./HighlightsSection";
 import FeaturesSection from "./FeaturesSection";
 import TeamSection from "./TeamSection";
 
-export const meta: Metadata = {
-  title: "GRENEXT | Smart & Secure Campus Platform",
-  description:
-    "A smart campus platform for managing attendance, energy efficiency, and environmental monitoring. Designed for modern institutions like ESTIAM.",
-};
 
 const Home: NextPage = () => {
   const sectionsRef = useRef<HTMLDivElement[]>([]);
