@@ -2,7 +2,7 @@ import { Link } from '@saas-ui/react'
 import { NextSeoProps } from 'next-seo'
 import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa'
 import { FiCpu, FiZap, FiLock, FiSmartphone } from 'react-icons/fi'
-import { Logo } from './logo'
+import Logo from '../../public/static/svg/greenext.svg'
 
 const siteConfig = {
   logo: Logo,
