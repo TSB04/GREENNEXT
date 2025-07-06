@@ -26,7 +26,7 @@ type TeamType = {
   linkedinLink?: string;
 };
 
-const defaultAvatar = "/static/images/avatar.jpg";
+const defaultAvatar = "/static/images/avatar.png"; // Default avatar image
 
 const teamData: TeamType[] = [
   {
@@ -34,6 +34,7 @@ const teamData: TeamType[] = [
     name: "Thierno Sadou Barry",
     designation: "WMD",
     role: "Chef",
+    image: "/static/images/tsb.jpeg",
     linkedinLink: "https://www.linkedin.com/in/tsb04/",
     githubLink: "https://github.com/tsb04/",
   },
@@ -42,6 +43,7 @@ const teamData: TeamType[] = [
     name: "Mirke Vianel Kong Sakeo",
     designation: "BDAI",
     role: "Second",
+    image: "/static/images/vk.JPG",
     linkedinLink:
       "https://www.linkedin.com/in/mirke-vianel-kong-sakeo-8b0a1b1b2/",
     githubLink: "https://github.com/vianelk/",
@@ -85,6 +87,7 @@ const teamData: TeamType[] = [
     name: "Franklin Zongmo",
     designation: "BDAI",
     role: "Membre",
+    image: "/static/images/abel.jpeg",
     linkedinLink: "https://www.linkedin.com/in/franklin-zongmo-8b0a1b1b2/",
     githubLink: "https://github.com/FranklinZongmo/",
   },
